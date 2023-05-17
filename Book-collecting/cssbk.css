@@ -1,0 +1,161 @@
+body{
+	background: #F1F6F9;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar ul li{
+	list-style: none;
+	float: left;
+	padding: 3px;
+
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	padding: 10px 12px;
+	display: block;
+	margin-top: 4%;
+}
+
+nav.navbar{
+	background:linear-gradient(50deg,#212A3E,#394867); 
+	overflow: hidden;
+}
+
+.navbar ul li:hover{
+	background:linear-gradient(#F9F5E7);
+
+}
+ul li a{
+	opacity: 0.5;
+	color: white;
+	font-family:'Labrada', serif;
+	font-size: 15px;
+
+	text-shadow: 2px 3px 5px #867070;
+
+}
+.bookshop{
+	font-weight: bold;
+	
+}
+ul li a:hover{
+	opacity: 1;
+
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #394867;
+  border: none;
+  color: white;
+  font-family: 'Labrada', serif;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  width: 199px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*.button span a {
+  text-decoration:none;
+  color: white;
+}*/
+
+
+div.gallery {
+  color: white;	
+  border: 1px solid #ccc;
+  background: linear-gradient(45deg,#212A3E,#394867);
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.lgbt {
+  padding: 1px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.socialmedia,.contactus{
+	color: white;
+	padding: 10px 15px;
+	background: #212A3E;
+	display: flex;
+	clear: both;
+	height: 20vh;	
+	
+}
+
+
+

@@ -1,0 +1,136 @@
+body{
+	background: #F1F6F9;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navbar ul li{
+	list-style: none;
+	float: left;
+	padding: 3px;
+
+	
+}
+.navbar ul li a{
+	text-decoration: none;
+	padding: 10px 12px;
+	display: block;
+	margin-top: 4%;
+}
+
+nav.navbar{
+	background:linear-gradient(50deg,#212A3E,#394867); 
+	overflow: hidden;
+}
+
+.navbar ul li:hover{
+	background:linear-gradient(#F9F5E7);
+
+}
+ul li a{
+	opacity: 0.5;
+	color: white;
+	font-family:'Labrada', serif;
+	font-size: 15px;
+
+	text-shadow: 2px 3px 5px #867070;
+
+}
+.bookshop{
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+ul li a:hover{
+	opacity: 1;
+
+}
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 5px;
+  color: white;
+}
+
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+
+.container {
+  padding: 2px 16px;
+}
+
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 5px;
+  color: white;
+}
+
+ 
+
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+ 
+
+img{
+  border-radius: 5px 5px 0 0;
+}
+
+ 
+
+.container{
+  padding: 2px 16px;
+}
+
+.card3{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  border-radius: 5px;
+  color: white;
+}
+
+ 
+
+.card3:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+ 
+
+img{
+  border-radius: 5px 5px 0 0;
+}
+
+ 
+
+.container {
+  padding: 2px 16px;
+}
+
+
+ /*"Footer"*/
+
+.socialmedia,.contactus{
+	color: white;
+	padding: 10px 15px;
+	background: #212A3E;
+	display: flex;
+	clear: both;
+	height: 20vh;	
+}
+
+
+
